@@ -1,0 +1,45 @@
+.footer-div{
+   
+    padding: 20px 50px;
+    margin: 20px 0px;
+     
+    color: #faf608;
+}
+.ftr-txt{
+    display: flex;
+    justify-content:flex-start;
+    margin: 20px;
+    flex-direction: row;
+}
+.ftr-img{
+    margin-right: 3rem;
+}
+.ftr-img img{
+    height: 80px;
+    width: 120px;
+    cursor: pointer;
+}
+.link-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 80%;
+}
+.links{
+    padding: .2rem;
+    cursor: pointer;
+}
+.links a{
+    text-decoration: none;
+    color: #faf608;
+}
+
+
+
+.copyright{
+    border-top: 2px solid red;
+    padding: 10px ;
+    text-align: center;
+}

@@ -1,0 +1,118 @@
+ 
+.menuNavbar  {
+    color: black;
+    top: 6rem;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0.3rem 3rem 0rem;
+    flex-flow: row nowrap;
+    right: 0px;
+    left: 0px;
+    width: auto;
+    background-color: #fff;
+    overflow: scroll;
+    height: 3rem;
+    position:fixed;
+    z-index: 90;
+    box-shadow: rgb(210, 221, 233) 5px 5px 5px;
+    transition: all 1s ease-in-out 0s;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.menuNavbar .mn-hdr{
+    white-space: nowrap;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-top: 1.1em;
+    padding-bottom: 1.1em;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: center;
+    cursor: pointer;
+}
+ 
+
+.mn-hdr .active{
+     
+    border-bottom: .2em solid #26f7d4;
+    color: brown;
+    font-size: 12px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mainDivOfCards {
+  /* max-width: 100%; */
+  background-color: rgb(242, 242, 242);
+  padding-top: 12rem ;
+}
+.mainDivOfCards .all-card-div{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    flex-wrap: wrap;
+} 
+.menu-hr{
+    height: 2px;
+    width: 100%;
+    text-align:center;
+    background-color: black;
+    transform: translateY(3.55rem);
+}
+.personalHeading{
+    color: black;
+    font-size: 14px;
+    background: #faaeae;
+    border-radius: 2rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin: 24px 6px 1rem 1.5rem;
+    z-index: 1;
+    position: relative;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 725px) {
+    .menuNavbar{
+        overflow: scroll;
+    }
+    .menuNavbar .mn-hdr{
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 1.1em;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+ 
+
+ 

@@ -1,0 +1,124 @@
+
+.mainCard{
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(252, 251, 248);
+    color: brown;
+     box-shadow: rgb(0, 0, 0, 12%) 0px 2px 2px 0px,  rgb(0, 0, 0,12%) 0px 2px 4px 0px;
+}
+hr{
+    background-color: rgba(127, 255, 212, 0.534);
+    height: 1px;
+    /* margin: 2px 10px; */
+    border: none;
+}
+.mainCard img{
+    /* width: 300px;  */
+    width: 100%;
+    min-height: 150px;
+    cursor: pointer;
+}
+.like-dislike-div{
+    height: 0px;
+}
+.dislike-icon{
+    color: #07fcfc;
+    
+}
+.like-icon{
+    color: #ff3a3a;
+    
+}
+.dislike-icon ,.like-icon{
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+    transform: translate(270px,-150px);
+    transition: all ease-in 1s;
+}
+
+
+.aboutCard{
+    margin: 8px;
+}
+.aboutCard  .pizza-name{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    padding-left: 10px;
+}
+.aboutCard .card-description{
+    padding: 5px 0px;
+}
+.aboutCard .card-description span {
+    color: #979797;
+}
+.aboutCard .card-description span:hover{
+    color: #554e4e;
+}
+
+
+
+
+
+
+.sizeAndCrustDiv{
+     display: flex;
+     align-items: center;
+     justify-content:flex-start;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     width: 100%;
+     margin: auto 0px;
+}
+.sizeDiv{
+    width: 45%;  
+}
+.crustDiv{
+     width: 50%; 
+}
+
+.sizeOfPizza ,.crustOfPizza{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5c5a5a;
+}
+.sizeSelection ,.crustSelection{
+    border: none ;
+    margin: 5px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+ 
+.sizeSelection option ,.crustSelection option{
+    border: none;
+    cursor: pointer; 
+}
+  
+
+
+
+ 
+
+.addInCartBtn{
+    width: 100%;
+    margin: 10px;
+}
+.addInCartBtn button{
+    cursor: pointer;
+    padding: 0.433rem;
+    border: 1px solid rgb(0, 171, 0);
+    color: rgb(0, 171, 0);
+    background-color: rgb(255, 255, 255);
+    transition: all ease-in .1s;
+}
+.addInCartBtn button:hover{
+    background-color: #a9fdc2cc;
+    color: black;
+}
+.addInCartBtn button a{
+    text-decoration: none;
+    color: #06aff1;
+}
+ 

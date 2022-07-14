@@ -1,0 +1,129 @@
+   
+/* login css  */
+.login,
+.registration {
+  color: #fff;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+   display: flex; 
+  align-items: center;
+  flex-wrap:wrap;
+   
+  justify-content: space-around;
+  
+/* 
+  background-image: url("../images/img1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; */
+}
+
+.login-form,
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(62, 63, 60, 0.616);
+  backdrop-filter: blur(2px);
+
+  box-shadow: 0 8px 32px 0 rgba(42, 42, 46, 0.37);
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  color: #fff;
+}
+ 
+.login-form button,
+.registration-form button {
+  background-color: rgb(2, 2, 2);
+  color: rgb(250, 248, 248);
+  border: none;
+  padding: 10px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: large;
+}
+.login-form button:hover,
+.registration-form button:hover {
+  background-color: rgb(79, 173, 255);
+  color: rgb(17, 17, 17);
+}
+
+.login-form input,
+.registration-form input {
+  color: #fff;
+  padding: 8px 8px 4px 8px;
+  margin: 2px 5px 10px 5px;
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  word-spacing: 3px;
+}
+.login-form label,
+.registration-form label{
+   font-size: 12px;
+}
+ ::placeholder {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.671);
+}
+.login-form a , .registration-form a{
+  color: aqua;
+
+}
+.login-form .error , .registration-form .error{
+  color: red;
+}
+
+ .registration{
+   margin-top: 40px;
+ }
+.registration-form {
+  width: 350px;
+  padding: 10px;
+  vertical-align: middle;
+  
+}
+/* .login {
+  display: none;
+} */
+.signInUpDiv{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.signInBtn,.signUpBtn{
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(62, 63, 60, 0.616);
+  backdrop-filter: blur(2px);
+  color:#fff;
+  border: 1px solid black;
+  border-bottom: 2px solid rgb(165, 250, 165);
+  margin: 0px;
+  margin-top: 20px;
+  width: 50%;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
